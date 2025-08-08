@@ -1,16 +1,11 @@
 #include <stdio.h>
-
-int main() {
-	
-	float a=1.1, b=0.1;
-	float c = a+b;
-	printf("%f\n", c);
-	
-	getchar();
+int main()
+{
+	int h = 89;
+	if(h >= 90)
+		printf("A");
+	else
+		printf("B");
 	return 0;
 }
-
-
-	
-
 
